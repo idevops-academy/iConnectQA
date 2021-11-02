@@ -1,0 +1,27 @@
+{
+  "name": "iConnectQA",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "testcafe": "^1.16.1"
+  },
+  "scripts": {
+    "test": "npx testcafe chrome tests --speed 0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idevops-academy/iConnectQA.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idevops-academy/iConnectQA/issues"
+  },
+  "homepage": "https://github.com/idevops-academy/iConnectQA#readme"
+}
