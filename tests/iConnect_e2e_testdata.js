@@ -2,7 +2,7 @@ import { Selector } from 'testcafe';
 const dataSet = require('./testdata.json');
 
 fixture `Save multiple contacts`
-    .page("http://ec2-13-232-95-65.ap-south-1.compute.amazonaws.com/")
+    .page(process.env.appurl)
 
 dataSet.forEach(data => {
     test(`Enter '${data.name}'`, async t => {

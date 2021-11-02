@@ -2,7 +2,7 @@ import { Selector } from 'testcafe';
 
 
 fixture `Test iConnect application`
-    .page("http://ec2-13-232-95-65.ap-south-1.compute.amazonaws.com/")
+    .page(process.env.appurl)
 
 test('Test Contact Saving', async t => {
     await t
