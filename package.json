@@ -11,7 +11,8 @@
     "testcafe": "^1.16.1"
   },
   "scripts": {
-    "test": "npx testcafe chrome tests --speed 0.5"
+    "test": "npx testcafe chrome tests --speed 0.5",
+    "test:headless": "npx testcafe chromium:headless tests"
   },
   "repository": {
     "type": "git",
