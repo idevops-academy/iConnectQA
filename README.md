@@ -7,7 +7,7 @@ npm install
 npm run test
 
 ### Amazon Linux with chromium browser headless
-
+export appurl=http://appurl.com/
 <br/>
 sudo amazon-linux-extras install epel -y
 <br/>
